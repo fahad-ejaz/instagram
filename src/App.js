@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import ReactLoader from './components/loader';
 import * as ROUTES from './constants/routes';
 import UserContext from './context/user';
